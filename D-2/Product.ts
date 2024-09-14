@@ -20,15 +20,6 @@ function showProduct(products:Product | Product[]) {
     }
 }
 
-function displayInfo(info: string | number): void {
-    if (typeof info === "string") {
-        console.log(`Product Name: ${info}`);
-    } else {
-        console.log(`Product Price: ${info}€`);
-    }
-}
-
-
 products.push(test);
 // products.push(test2);
 
